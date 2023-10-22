@@ -18,8 +18,8 @@ Connecting a USB printer without ethernet or Wifi onto the network (or with unre
 
 3. Edit the p910nd config (using nano or your favorite editor)
 * `sudo nano /etc/default/p910nd`
-Change P910ND_OPTS=”” to P910ND_OPTS="-f /dev/usb/lp0"
-Change P910ND_START=0 to P910ND_START=1
+- Change P910ND_OPTS=”” to P910ND_OPTS="-f /dev/usb/lp0"
+- Change P910ND_START=0 to P910ND_START=1
 
 ## Finishing Up
 1. Connect your USB printer to the SBC.
